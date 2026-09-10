@@ -1,0 +1,80 @@
+/*
+Madison Grace Austin
+CSCI 255 Spring 2025
+Programming Assignment #class02b
+I acknowledge that I have worked on this assignment independently, except where
+explicitly noted and referenced. Any collaboration or use of external resources
+has been properly cited. I am fully aware of the consequences of academic
+dishonesty and agree to abide by the university's academic integrity policy. I
+understand the importance the consequences of plagiarism.
+*/
+
+Maustin3@MG102-LAB13 MINGW64 ~
+$ pwd
+/c/Users/Maustin3
+
+Maustin3@MG102-LAB13 MINGW64 ~
+$ ls
+ AppData/             Music/                                                                                        'Saved Games'/
+'Application Data'@  'My Documents'@                                                                                 Searches/
+ Contacts/            NTUSER.DAT                                                                                     SendTo@
+ Cookies@             NTUSER.DAT{4b18b1ed-a2a3-11ef-8dc1-00155d601603}.TM.blf                                       'Start Menu'@
+ Desktop/             NTUSER.DAT{4b18b1ed-a2a3-11ef-8dc1-00155d601603}.TMContainer00000000000000000001.regtrans-ms   Templates@
+ Documents/           NTUSER.DAT{4b18b1ed-a2a3-11ef-8dc1-00155d601603}.TMContainer00000000000000000002.regtrans-ms   Videos/
+ Downloads/           NetHood@                                                                                       ntuser.dat.LOG1
+ Favorites/           OneDrive/                                                                                      ntuser.dat.LOG2
+ Folder/             'OneDrive - Montana Tech'/                                                                      ntuser.ini
+ Links/               PrintHood@
+'Local Settings'@     Recent@
+
+Maustin3@MG102-LAB13 MINGW64 ~
+$ cd Desktop
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop
+$ mkdir Folder
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop
+$ ls
+Folder/
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop
+$ cd Folder
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ ls
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ echo Hello World! > hello.txt
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ ls
+hello.txt
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ mv hello.txt hello2.txt
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ ls
+hello2.txt
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ rm hello2.txt
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ ls
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop/Folder
+$ cd ..
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop
+$ ls
+Folder/
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop
+$ rm -r Folder
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop
+$ ls
+
+Maustin3@MG102-LAB13 MINGW64 ~/Desktop
+$
