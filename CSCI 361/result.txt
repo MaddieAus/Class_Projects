@@ -1,0 +1,127 @@
+/*
+Madison Grace Austin
+CSCI 361 Spring 2025
+Programming Assignment #class02
+I acknowledge that I have worked on this assignment independently, except where
+explicitly noted and referenced. Any collaboration or use of external resources
+has been properly cited. I am fully aware of the consequences of academic
+dishonesty and agree to abide by the university's academic integrity policy. I
+understand the importance the consequences of plagiarism.
+*/
+
+C:\Users\Maustin3>whoami
+mtechs\maustin3
+
+C:\Users\Maustin3>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7011-2DA0
+
+ Directory of C:\Users\Maustin3
+
+01/14/2026  01:41 PM    <DIR>          .
+01/14/2026  09:52 AM    <DIR>          ..
+01/14/2026  01:41 PM               349 .bash_history
+07/15/2025  09:15 AM    <DIR>          .dotnet
+12/02/2024  04:15 PM    <DIR>          .ms-ad
+01/14/2026  12:54 PM                 0 .uc-28d818170930216a7e3598e320cfabc7.maustin3.mg102-lab13.tmp
+01/12/2026  12:54 PM    <DIR>          Contacts
+01/14/2026  01:37 PM    <DIR>          Desktop
+01/14/2026  01:08 PM    <DIR>          Documents
+01/14/2026  01:03 PM    <DIR>          Downloads
+01/12/2026  12:54 PM    <DIR>          Favorites
+01/12/2026  12:54 PM    <DIR>          Links
+01/12/2026  12:54 PM    <DIR>          Music
+01/14/2026  01:08 PM    <DIR>          OneDrive
+01/14/2026  01:08 PM    <DIR>          OneDrive - Montana Tech
+01/12/2026  12:54 PM    <DIR>          Saved Games
+01/12/2026  12:54 PM    <DIR>          Searches
+01/12/2026  12:54 PM    <DIR>          Videos
+               2 File(s)            349 bytes
+              16 Dir(s)  419,311,685,632 bytes free
+
+C:\Users\Maustin3>cd Desktop
+
+C:\Users\Maustin3\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7011-2DA0
+
+ Directory of C:\Users\Maustin3\Desktop
+
+01/14/2026  01:37 PM    <DIR>          .
+01/14/2026  01:41 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  419,310,153,728 bytes free
+
+C:\Users\Maustin3\Desktop>md Folder
+
+C:\Users\Maustin3\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7011-2DA0
+
+ Directory of C:\Users\Maustin3\Desktop
+
+01/14/2026  01:47 PM    <DIR>          .
+01/14/2026  01:41 PM    <DIR>          ..
+01/14/2026  01:47 PM    <DIR>          Folder
+               0 File(s)              0 bytes
+               3 Dir(s)  419,304,411,136 bytes free
+
+C:\Users\Maustin3\Desktop>cd Folder
+
+C:\Users\Maustin3\Desktop\Folder>echo hello world! > hello.txt
+
+C:\Users\Maustin3\Desktop\Folder>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7011-2DA0
+
+ Directory of C:\Users\Maustin3\Desktop\Folder
+
+01/14/2026  01:48 PM    <DIR>          .
+01/14/2026  01:47 PM    <DIR>          ..
+01/14/2026  01:48 PM                15 hello.txt
+               1 File(s)             15 bytes
+               2 Dir(s)  419,302,285,312 bytes free
+
+C:\Users\Maustin3\Desktop\Folder>rename hello.txt hello2.txt
+
+C:\Users\Maustin3\Desktop\Folder>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7011-2DA0
+
+ Directory of C:\Users\Maustin3\Desktop\Folder
+
+01/14/2026  01:50 PM    <DIR>          .
+01/14/2026  01:47 PM    <DIR>          ..
+01/14/2026  01:48 PM                15 hello2.txt
+               1 File(s)             15 bytes
+               2 Dir(s)  419,327,197,184 bytes free
+
+C:\Users\Maustin3\Desktop\Folder>del hello2.txt
+
+C:\Users\Maustin3\Desktop\Folder>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7011-2DA0
+
+ Directory of C:\Users\Maustin3\Desktop\Folder
+
+01/14/2026  01:52 PM    <DIR>          .
+01/14/2026  01:47 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  419,325,329,408 bytes free
+
+C:\Users\Maustin3\Desktop\Folder>cd ..
+
+C:\Users\Maustin3\Desktop>rmdir Folder
+
+C:\Users\Maustin3\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7011-2DA0
+
+ Directory of C:\Users\Maustin3\Desktop
+
+01/14/2026  01:52 PM    <DIR>          .
+01/14/2026  01:41 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  419,323,543,552 bytes free
+
+C:\Users\Maustin3\Desktop>
