@@ -1,0 +1,34 @@
+<!--Madison Austin faculty form data assignment-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Faculty</title>
+</head>
+<body>
+
+<h2>Search Faculty Record</h2>
+
+<form action="faculty_backwork.php" method="POST">
+
+    <label for="facID">Faculty ID:</label>
+    <input type="text" name="facID" id="facID"
+           maxlength="10"
+           pattern="[0-9]*"
+           title="Faculty ID must be numeric only">
+
+    <br><br>
+
+    <label for="facName">Faculty Name:</label>
+    <input type="text" name="facName" id="facName"
+           maxlength="35"
+           pattern="[A-Za-z ]*"
+           title="Name must contain letters and spaces only">
+
+    <br><br>
+
+    <input type="submit" value="Search">
+
+</form>
+
+</body>
+</html>

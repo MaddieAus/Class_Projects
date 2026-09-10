@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+    <meta http-equiv="refresh" content="2;url={{ url_for('login') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .message {
+            font-size: 20px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p class="message">{{ message }}</p>
+    <p>You will be redirected to the login page shortly...</p>
+</body>
+</html>

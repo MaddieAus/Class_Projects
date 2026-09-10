@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    {% if username %}
+        <p>You are logged in!</p>
+        <br>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    {% else %}
+        <p>You are not logged in. Please <a href="{{ url_for('login') }}">login</a>.</p>
+    {% endif %}
+</body>
+</html>

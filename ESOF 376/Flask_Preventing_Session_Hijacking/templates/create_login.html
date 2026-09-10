@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Login</title>
+</head>
+<body>
+    <h1>Create Login</h1>
+    {% if error %}
+<p style="color: red;">{{ error }}</p>
+{% endif %}
+
+    <form method="POST" action="/create_login">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+        <button type="submit">Create</button>
+    </form>
+</body>
+</html>

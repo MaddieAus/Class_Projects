@@ -1,0 +1,55 @@
+<!--Madsion Austin, HTML regastration form-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="process.php" method="post">
+
+    First Name:
+    <input type="text" name="firstname" maxlength="25" pattern="[A-Za-z]+" required>
+    <br><br>
+
+    Last Name:
+    <input type="text" name="lastname" maxlength="25" pattern="[A-Za-z]+" required>
+    <br><br>
+
+    Password:
+    <input type="password" name="passwd" minlength="8" required>
+    <br><br>
+
+    Confirm Password:
+    <input type="password" name="confirm_passwd" minlength="8" required>
+    <br><br>
+
+    Email:
+    <input type="email" name="email" required>
+    <br><br>
+
+    URL:
+    <input type="url" name="url">
+    <br><br>
+
+    Age:
+    <input type="number" name="age" min="25" max="50" required>
+    <br><br>
+
+    Zip Code:
+    <input type="text" name="zipcode" pattern="[0-9]{5}" required>
+    <br><br>
+
+    Introduction:
+    <br>
+    <textarea name="introduction" rows="4" cols="50" maxlength="500"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

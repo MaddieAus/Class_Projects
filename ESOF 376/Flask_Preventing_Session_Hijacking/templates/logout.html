@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout</title>
+    <script>
+        // Check if the URL has the 'session' parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const session = urlParams.get('session');
+
+        if (session === 'logout') {
+            // Simulate session clearing using JavaScript
+            // You can use an AJAX call to handle server-side logout if needed
+            localStorage.clear(); // Example of clearing client-side storage
+            sessionStorage.clear(); // Example of clearing session storage
+
+            // Redirect to login
+            window.location.href = '/login';
+        } else {
+            // If no 'session' parameter, redirect to login as a fallback
+            window.location.href = '/login';
+        }
+    </script>
+</head>
+<body>
+    <noscript>
+        <p>JavaScript is required to process the logout. Please enable JavaScript and try again.</p>
+    </noscript>
+</body>
+</html>
